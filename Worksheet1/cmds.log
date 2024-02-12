@@ -1,0 +1,41 @@
+    1  passwd
+    2  yes
+    3  wget www.github.com
+    4  wget.github.com
+    5  wget www.github.com
+    6  git clone https://github.com/billyfpm/repository.git
+    7  git remote add origin https://github.com/billyfpm/cs131.git
+    8  git branch -M main
+    9  wget www.github.com
+   10  history > cmds.log
+   11  git remote add origin git@github.com:billyfpm/Worksheet1.git
+   12  wget www.github.com
+   13  history > cmds.log
+   14  git add cmds.log
+   15  git clomne https://github.com/billyfpm/cs131.git
+   16  git clone https://github.com/billyfpm/cs131.git
+   17  cd cs131
+   18  cd Worksheet1
+   19  mkdir Worksheet1
+   20  cd Worksheet1
+   21  history >cmds.log
+   22  git add cmds.log
+   23  git commit -m "added history log"
+   24  git confi --global user.email "billyholiday77@outlook.com"
+   25  git config --global user.email "billyholiday77@outlook.com"
+   26  git config --global user.name "billyfpm"
+   27  git commit -m "add history log"
+   28  git push origin main
+   29  wget www.github.com
+   30  git config --global user.name "billyfpm"
+   31  git config --global user.email "billyholiday77@outlook.com"
+   32  git clone https://github.com/billyfpm/cs131.git
+   33  cd cs131
+   34  mkdir Worksheet1
+   35  ls -a
+   36  cd Worksheet1
+   37  ls -l Worksheet1
+   38  rm Worksheet1
+   39  mkdir Worksheet1
+   40  cd Worksheet1
+   41  history > cmds.log
