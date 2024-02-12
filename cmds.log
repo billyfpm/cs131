@@ -1,16 +1,21 @@
-  642  git remote add origin: git@github.com:billyfpm/sampleProject.git
-  643  git remote add origin git@github.com:billyfpm/sampleProject.git
-  644  git remote -v
-  645  git remote add origin git@github.com:billyfpm/sampleProject.git
-  646  git commit -m "hello"
-  647  git push --set-upstream origin master or git push --set-upstream
-  648  origin main
-  649  ssh billysp24@172.20.25.9
-  650  wget www.github.com\n\n
-  651  git remote add origin git@github.com:billyfpm/Worksheet1.git
-  652  git remote add origin git@github.com/billyfpm/cs131.git
-  653  wget www.github.com
-  654  git clone https://github.com/billyfpm/cs131.git
-  655  cd cs131
-  656  mkdir Worksheet1
-  657  cd Worksheet1
+    1  passwd
+    2  yes
+    3  wget www.github.com
+    4  wget.github.com
+    5  wget www.github.com
+    6  git clone https://github.com/billyfpm/repository.git
+    7  git remote add origin https://github.com/billyfpm/cs131.git
+    8  git branch -M main
+    9  wget www.github.com
+   10  history > cmds.log
+   11  git remote add origin git@github.com:billyfpm/Worksheet1.git
+   12  wget www.github.com
+   13  history > cmds.log
+   14  git add cmds.log
+   15  git clomne https://github.com/billyfpm/cs131.git
+   16  git clone https://github.com/billyfpm/cs131.git
+   17  cd cs131
+   18  cd Worksheet1
+   19  mkdir Worksheet1
+   20  cd Worksheet1
+   21  history >cmds.log
