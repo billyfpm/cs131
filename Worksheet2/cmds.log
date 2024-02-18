@@ -1,0 +1,228 @@
+    1  passwd
+    2  yes
+    3  wget www.github.com
+    4  wget.github.com
+    5  wget www.github.com
+    6  git clone https://github.com/billyfpm/repository.git
+    7  git remote add origin https://github.com/billyfpm/cs131.git
+    8  git branch -M main
+    9  wget www.github.com
+   10  history > cmds.log
+   11  git remote add origin git@github.com:billyfpm/Worksheet1.git
+   12  wget www.github.com
+   13  history > cmds.log
+   14  git add cmds.log
+   15  git clomne https://github.com/billyfpm/cs131.git
+   16  git clone https://github.com/billyfpm/cs131.git
+   17  cd cs131
+   18  cd Worksheet1
+   19  mkdir Worksheet1
+   20  cd Worksheet1
+   21  history >cmds.log
+   22  git add cmds.log
+   23  git commit -m "added history log"
+   24  git confi --global user.email "billyholiday77@outlook.com"
+   25  git config --global user.email "billyholiday77@outlook.com"
+   26  git config --global user.name "billyfpm"
+   27  git commit -m "add history log"
+   28  git push origin main
+   29  wget www.github.com
+   30  git config --global user.name "billyfpm"
+   31  git config --global user.email "billyholiday77@outlook.com"
+   32  git clone https://github.com/billyfpm/cs131.git
+   33  cd cs131
+   34  mkdir Worksheet1
+   35  ls -a
+   36  cd Worksheet1
+   37  ls -l Worksheet1
+   38  rm Worksheet1
+   39  mkdir Worksheet1
+   40  cd Worksheet1
+   41  history > cmds.log
+   42  git add cmds.log
+   43  git commit -m "added history log"
+   44  git push origin main
+   45  git pull origin main
+   46  git push origin main
+   47  vi sample.txt
+   48  wc sample.txt
+   49  cat sample.txt
+   50  grep john sample.txt
+   51  grep line1 sample.txt
+   52  vi sample.txt
+   53  echo "Hello World"
+   54  echo "pwd"
+   55  echo 'pwd'
+   56  echO $HOME
+   57  echo $HOME
+   58  echo $SHELL
+   59  a = "Hello World"
+   60  a="Hello World"
+   61  echo $a
+   62  echo $printenv
+   63  echo $1
+   64  echo $i
+   65  date
+   66  export DATETIME='date'
+   67  OUTDIR=out.$DATETIME
+   68  echo $OUTDIR
+   69  mkdir temp
+   70  ls
+   71  script.sh
+   72  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+   73  grep "United States$" 
+   74  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+   75  grep "United States$" "Global Youtube Statistics.csv" > counts.txt
+   76  ls
+   77  pwd
+   78  mkdir Global Youtube Statistics
+   79  mv "Global Youtube Statistics.csv" Global Youtube Statistics/
+   80  cd Global Youtube Statistics
+   81  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+   82  mkdir Youtube
+   83  cd Youtube
+   84  mv "Global Youtube Statistics.csv" Youtube/
+   85  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+   86  ls
+   87  grep "United States$" "Global Youtube Statistics.csv" > counts.txt
+   88  ls
+   89  grep "Music" "Global YouTube Statistics.csv" >> counts.txt
+   90  grep "Music" "Global YouTube Statistics.csv" | wc -lw >> counts.txt
+   91  vi counts.txt
+   92  history >cmds.log
+   93  vi counts.txt
+   94  cd https://github.com/billyfpm/cs131.git
+   95  git remote add origin https://github.com/billyfpm/cs131.git
+   96  cd 
+   97  mkdir Worksheet2
+   98  mv /path/to/Youtube/counts.txt /path/to/Youtube/cmds.log Worksheet2/
+   99  cd Youtube
+  100  pwd
+  101  cd
+  102  mv /mnt/scratch/SP24_CS131_Jyotika/billysp24/Youtube/counts.txt
+  103  mv /mnt/scratch/SP24_CS131_Jyotika/billysp24/Youtube/counts.txt /mnt/scratch/SP24_CS131_Jyotika/billysp24/Youtube/cmds.log Worksheet2/
+  104  git add Worksheet2/
+  105  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  106  mkdir Youtube
+  107  cd Youtube
+  108  ls
+  109  cd
+  110  cd Youtube
+  111  pwd
+  112  cd
+  113  mv /mnt/scratch/SP24_CS131_Jyotika/billysp24/Youtube/counts.txt /mnt/scratch/SP24_CS131_Jyotika/billysp24/Youtube/cmds.log Worksheet2/
+  114  cd Worksheet2
+  115  ls
+  116  git add Worksheet2
+  117  git add cs131
+  118  cd https://github.com/billyfpm/cs131.git
+  119  cd
+  120  https://github.com/billyfpm/cs131.git
+  121  git init
+  122  git add Worksheet2
+  123  git clone https://github.com/billyfpm/cs131.git
+  124  cd cs131
+  125  git pull origin main
+  126  git add Worksheet2/counts.txt Worksheet2/cmds.log
+  127  git add counts.txt cmds.log
+  128  mv /mnt/scratch/SP24_CS131_Jyotika/billysp24/Youtube/counts.txt /mnt/scratch/SP24_CS131_Jyotika/billysp24/Youtube/cmds.log Worksheet2/
+  129  cd
+  130  cd cs131
+  131  cd
+  132  cd Worksheet2
+  133  ls
+  134  git add cmds.log counts.txt
+  135  git commit -m "add cmds.log and counts.txt to Worksheet2"
+  136  git push origin main
+  137  git branch
+  138  git push origin master
+  139  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
+  140  git push origin master
+  141  git remote -v
+  142  ls
+  143  git add cmds.log counts.txt
+  144  git commit -m "add cmds.log and counts.txt to Worksheet2"
+  145  git push origin master
+  146  cd cs131
+  147  cd
+  148  cd cs131
+  149  mv counts.txt cmds.log Worksheet2/
+  150  mv counts.txt cmds.log Worksheet2
+  151  mkdir Worksheet2
+  152  cd Worksheet2
+  153  cd
+  154  cd Worksheet2
+  155  git add counts.txt cmds.log
+  156  git commit -m "Add counts.txt and cmds.log to Worksheet2"
+  157  git add
+  158  git add .
+  159  git push origin master
+  160  git commit -m "Add counts.txt and cmds.log to Worksheet2"
+  161  cd cs131
+  162  cd
+  163  cd cs131
+  164  mkdir Worksheet2
+  165  mv Worksheet2/counts.txt Worksheet2/cmds.log .
+  166  cd ..
+  167  mv Worksheet2/counts.txt Worksheet2/cmds.log .
+  168  rm -r Worksheet2
+  169  ls
+  170  cd cs131
+  171  mkdir Worksheet2
+  172  mkdir worksheet2
+  173  cd worksheet2
+  174  mv counts.txt cmds.log worksheet2
+  175  mv counts.txt cmds.log worksheet2/
+  176  ls
+  177  pwd
+  178  mv ../counts.txt ../cmds.log .
+  179  ls
+  180  mv ../counts.txt
+  181  mv ./counts.txt
+  182  mv ./counts.txt .
+  183  ls
+  184  cd cs131
+  185  cd .
+  186  cd
+  187  ls
+  188  mv counts.txt worksheet2
+  189  cd worksheet2
+  190  cd cs131
+  191  ls
+  192  cd worksheet2
+  193  ls
+  194  cd Worksheet2
+  195  cd
+  196  cd Worksheet2
+  197  cd cs131
+  198  cd Worksheet2
+  199  cd counts.txt
+  200  cd
+  201  cd counts.txt
+  202  cd cs131
+  203  cd worksheet2
+  204  ls
+  205  cd
+  206  mv ../counts.txt .
+  207  ls
+  208  rm -r Worksheet2
+  209  cd cs131
+  210  rm -r Worksheet2
+  211  ls
+  212  cd worksheet2
+  213  ls
+  214  cd
+  215  mv counts.txt cs131/worksheet2/
+  216  ls
+  217  cd cs131
+  218  rm -r worksheet2
+  219  ls
+  220  cd
+  221  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  222  grep "United States$" Global Youtube Statistics.csv
+  223  grep "United States" Global\ YouTube\ Statistics.csv
+  224  grep "Music" Global\ YouTube\ Statistics.csv
+  225  grep "Music" Global\ YouTube\ Statistics.csv | wc -l > counts.txt
+  226  grep "Music" Global\ YouTube\ Statistics.csv | wc -w >> counts.txt
+  227  vi counts.txt
+  228  history > cmds.log
