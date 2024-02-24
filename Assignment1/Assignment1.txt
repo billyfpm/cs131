@@ -1,0 +1,39 @@
+Task 1) cd cs131
+mkdir Assignment1
+
+Task 2) echo $SHELL
+this command prints /bin/bash or the current shell path
+
+        echo $HOME
+this command prints the path to the home directory, which is /mnt/scratch/SP24_CS131_Jyotika/billysp24
+
+Task 3) id -u
+my user ID, and the output of this command is 1216
+
+        id -gn
+the group name is billysp24
+
+Task 4) mkdir myDir
+chmod u-w myDir
+I used ls -l command and got an output of total 0. there were no files but i would not have been able to write a new one since that permission was removed
+
+Task 5) mkdir myDir2 myDir3
+
+Task 6) cd myDir2
+	vi myFile.txt
+	mv myDir2/myFile.txt myDir3/
+
+Task 7) free
+	free -m
+
+the output of using the free command was mem total 73080640, used 31471104, free 22653632
+the output of using the free -m command was mem total 71367, used 30748, free 22106
+free -m shows the avilable memory in mebibytes
+
+Task 8) cat /etc/os-release
+
+Task 9) ls -l /etc/os-release
+
+The file for both os version and permissions are in the file //user/lib/os-release
+
+~           

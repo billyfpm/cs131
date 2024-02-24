@@ -1,0 +1,139 @@
+Task 1) cd cs131
+mkdir Assignment1
+
+Task 2) echo $SHELL
+	echo $HOME
+
+Task 3) id -u
+	id -gn
+
+Task 4) mkdir myDir
+chmod u-w myDir
+ls -l
+
+Task 5) mkdir myDir2 myDir3
+
+Task 6) cd myDir2
+vi myFile.txt
+mv myDir2/myFile.txt myDir3/
+
+Task 7) free
+	free -m
+
+Task 8) cat /etc/os-release
+
+Task 9) ls -l /etc/os-release
+
+
+[billysp24@sjsu ~]$ cd cs131
+[billysp24@sjsu cs131]$ mkdir Assignment1
+[billysp24@sjsu cs131]$ cd Assignment1
+[billysp24@sjsu Assignment1]$ cd
+[billysp24@sjsu ~]$ cd cs131
+[billysp24@sjsu cs131]$ ls
+Assignment1  Worksheet1  Worksheet2
+[billysp24@sjsu cs131]$ cd Assignment1
+[billysp24@sjsu Assignment1]$ echo $SHELL
+/bin/bash
+[billysp24@sjsu Assignment1]$ echo $HOME
+/mnt/scratch/SP24_CS131_Jyotika/billysp24
+[billysp24@sjsu Assignment1]$ id u
+id: ‘u’: no such user
+[billysp24@sjsu Assignment1]$ id -u
+1216
+[billysp24@sjsu Assignment1]$ id -gn
+billysp24
+[billysp24@sjsu Assignment1]$ id -Gn
+billysp24 S78
+[billysp24@sjsu Assignment1]$ mkdir myDir
+[billysp24@sjsu Assignment1]$ chmod u-w myDir
+[billysp24@sjsu Assignment1]$ cd myDir
+[billysp24@sjsu myDir]$ ls
+[billysp24@sjsu myDir]$ ls -l
+total 0
+[billysp24@sjsu myDir]$ cd Assignment1
+-bash: cd: Assignment1: No such file or directory
+[billysp24@sjsu myDir]$ cd
+[billysp24@sjsu ~]$ cd Assignment1
+-bash: cd: Assignment1: No such file or directory
+[billysp24@sjsu ~]$ cd cs131
+[billysp24@sjsu cs131]$ cd Assignment1
+[billysp24@sjsu Assignment1]$ ls
+myDir
+[billysp24@sjsu Assignment1]$ mkdir myDir2 myDir3
+[billysp24@sjsu Assignment1]$ ls
+myDir  myDir2  myDir3
+[billysp24@sjsu Assignment1]$ cd myDir2
+[billysp24@sjsu myDir2]$ vi myDir2/myFile.txt
+[billysp24@sjsu myDir2]$ ls
+[billysp24@sjsu myDir2]$ mv myDir2/myFile.txt myDir3/
+mv: cannot stat 'myDir2/myFile.txt': No such file or directory
+[billysp24@sjsu myDir2]$ ls -l
+total 0
+[billysp24@sjsu myDir2]$ touch myDir2/myFile.txt
+touch: cannot touch 'myDir2/myFile.txt': No such file or directory
+[billysp24@sjsu myDir2]$ pwd
+/mnt/scratch/SP24_CS131_Jyotika/billysp24/cs131/Assignment1/myDir2
+[billysp24@sjsu myDir2]$ vi myFile.txt
+[billysp24@sjsu myDir2]$ ls
+myFile.txt
+[billysp24@sjsu myDir2]$ mv myDir2/myFile.txt myDir3/
+mv: cannot stat 'myDir2/myFile.txt': No such file or directory
+[billysp24@sjsu myDir2]$ cd
+[billysp24@sjsu ~]$ cd cs131
+[billysp24@sjsu cs131]$ cs Assignment1
+-bash: cs: command not found
+[billysp24@sjsu cs131]$ cd Assignment1
+[billysp24@sjsu Assignment1]$ mv myDir2/myFile.txt myDir3/
+[billysp24@sjsu Assignment1]$ cd mkDir3
+-bash: cd: mkDir3: No such file or directory
+[billysp24@sjsu Assignment1]$ cd myDir3
+[billysp24@sjsu myDir3]$ ls
+myFile.txt
+[billysp24@sjsu myDir3]$ cd Assignment1
+-bash: cd: Assignment1: No such file or directory
+[billysp24@sjsu myDir3]$ cd
+[billysp24@sjsu ~]$ cd cs131
+[billysp24@sjsu cs131]$ cd Assignment1
+[billysp24@sjsu Assignment1]$ free
+              total        used        free      shared  buff/cache   available
+Mem:       73080640    31471104    22653632     3646272    18955904    36470016
+Swap:       4218816           0     4218816
+[billysp24@sjsu Assignment1]$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:          71367       30797       22057        3561       18512       35550
+Swap:          4119           0        4119
+[billysp24@sjsu Assignment1]$ man free
+[billysp24@sjsu Assignment1]$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:          71367       30748       22106        3560       18512       35599
+Swap:          4119           0        4119
+[billysp24@sjsu Assignment1]$ cat /etc/os-release
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+[billysp24@sjsu Assignment1]$ ls /etc/os-release
+/etc/os-release
+[billysp24@sjsu Assignment1]$ ls -l /etc/os-release
+lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
+[billysp24@sjsu Assignment1]$ ls
+myDir  myDir2  myDir3
+[billysp24@sjsu Assignment1]$ vi cmds.log
+[billysp24@sjsu Assignment1]$ vi cmds.log
+[billysp24@sjsu Assignment1]$ vi cmds.log
+[billysp24@sjsu Assignment1]$ vi Assignment1.txt
+
