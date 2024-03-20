@@ -1,0 +1,36 @@
+1) find /etc -type f > one.txt 2> two.txt
+a) this command searches everything in the /etc directory, then writes it to one.txt and writes errors to two.txt
+b) one.txt is full of different paths while two.txt is full of files where permission is denied, which would be the errors written to that file
+
+2) 15 2006,Mar
+   13 2014,Jul
+   12 2014,Aug
+
+the command used to find this was cut -d',' -f20,21 Global\ Youtube\ Statistics.csv | sort | uniq -c | sort -nr | head -3
+
+this command takes a portion of the lines specified -d',' and sorts it so uniq -c can remove repeated info from the file, and the -c part counts the occurences from the file, sort -nr then organzies the list into numbers, and head -3 shows only the first 3 lines from the list created.
+
+3)ps -u $(whoami)
+    PID TTY          TIME CMD
+3504877 ?        00:00:02 systemd
+3504879 ?        00:00:00 (sd-pam)
+3504885 ?        00:00:00 sshd
+3504886 pts/8    00:00:00 bash
+3520885 pts/8    00:00:00 ps
+
+4) PID TTY          TIME CMD
+3504877 ?        00:00:03 systemd
+3504879 ?        00:00:00 (sd-pam)
+3504885 ?        00:00:00 sshd
+3504886 pts/8    00:00:00 bash
+3529929 ?        00:00:00 sshd
+3529930 pts/39   00:00:00 bash
+3530161 pts/8    00:00:00 vim
+3530201 pts/39   00:00:00 ps
+
+when i closed the second terminal window, the vim process disappeared. It disappeared due to the process being terminated by closing the second window, it is not an active process anymore.
+
+5)ps -ef | grep -E 'init|systemd'
+the init process is root           1       0  0  2023 ?        14:02:04 /usr/lib/systemd/systemd --switched-root --system --deserialize 18
+
+6) ps aux displays a list of all active processes. The info is CPU usage, memory usage, process IDs and the user.

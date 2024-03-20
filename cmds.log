@@ -1,0 +1,15 @@
+1) find /etc -type f > one.txt 2> two.txt
+
+2)find /etc -type f > one.txt 2> two.txt
+
+cut -d',' -f20,21 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -nr | head -3
+
+3) ps -u $(whoami)
+
+4)vi file.txt
+
+ps -u $(whoami)
+
+5) ps -ef | grep -E 'init|systemd'
+
+
