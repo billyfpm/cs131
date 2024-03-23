@@ -1,0 +1,17 @@
+mkdir Worksheet3
+[billysp24@sjsu cs131]$ cd Worksheet3
+[billysp24@sjsu Worksheet3]$ wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+[billysp24@sjsu Worksheet3]$ cut -d, -f8,16 Youtube2023.csv | sort -t, -k2 -nr > sorted_earnings.csv
+cut: Youtube2023.csv: No such file or directory
+[billysp24@sjsu Worksheet3]$ cut -d, -f8,16 "Global YouTube Statistics.csv" | sort -t, -k2 -nr > sorted_earnings.csv
+[billysp24@sjsu Worksheet3]$ grep "United States" sorted_earnings.csv | head -n 1 >> ws3.txt
+[billysp24@sjsu Worksheet3]$ grep "United Kingdom" sorted_earnings.csv | head -n 1 >> ws3.txt
+[billysp24@sjsu Worksheet3]$ grep "India" sorted_earnings.csv | head -n 1 >> ws3.txt
+[billysp24@sjsu Worksheet3]$ grep "United States" "Global YouTube Statistics.csv" | sort -t, -k16 -nr | head -n 1 >> ws3.txt
+[billysp24@sjsu Worksheet3]$ grep "United Kingdom" "Global YouTube Statistics.csv" | sort -t, -k16 -nr | head -n 1 >> ws3.txt
+[billysp24@sjsu Worksheet3]$ grep "India" "Global YouTube Statistics.csv" | sort -t, -k16 -nr | head -n 1 >> ws3.txt
+[billysp24@sjsu Worksheet3]$ grep "Sports" "Global YouTube Statistics.csv" | sort -t, -k3 -nr | head -n 1 >> ws3.txt
+[billysp24@sjsu Worksheet3]$ grep "Education" "Global YouTube Statistics.csv" | sort -t, -k3 -nr | head -n 1 >> ws3.txt
+[billysp24@sjsu Worksheet3]$ grep "Entertainment" "Global YouTube Statistics.csv" | sort -t, -k3 -nr | head -n 1 >> ws3.txt
+[billysp24@sjsu Worksheet3]$ vi ws3.txt
+
